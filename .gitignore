@@ -1,0 +1,24 @@
+# Private recovery data must stay on the devices.
+auth.json
+config.toml
+config.*.toml
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.pfx
+id_rsa*
+id_ed25519*
+codex-office-mac-repair*
+known_hosts*
+*.sqlite*
+*.db
+*.log
+*.pid
+office-mac-tunnel.json
+sessions/
+profiles/
+private/
+local-backups/
+.DS_Store

@@ -1,0 +1,30 @@
+{
+  "recordedAtUtc": "2026-10-23T06:52:26.6259661Z",
+  "testedBy": "Root repair session; results reported to artifact author",
+  "runtimeTests": {
+    "connectReusedExistingRemoteSocks5": true,
+    "launchFlagPreservedAlreadyRunningAppWithCorrectProxy": true,
+    "dedicatedHiddenSshCreated": true,
+    "remoteSocks5GreetingPassed": true,
+    "macCodexNotRestarted": true,
+    "stopWhatIfMatchedDedicatedPidWithoutStopping": true,
+    "connectReusedDedicatedTunnel": true,
+    "windowsPowerShell51ConnectLaunchFlagReusePassed": true,
+    "dedicatedSshStderrEmpty": true,
+    "featureServiceGetViaSocksStatus": 403,
+    "finalStableScriptsWindowsPowerShell51ConnectReusePassed": true,
+    "finalStableScriptsWindowsPowerShell51StopWhatIfPassed": true
+  },
+  "notExecuted": [
+    "Mac app-not-running launch branch",
+    "Actual stop action in Stop-OfficeMacChromeTunnel.ps1"
+  ],
+  "finalStaticChanges": [
+    "Complete argument ownership regex expressions parenthesized; eight regex patterns compile",
+    "Connect and Stop share a named per-session mutex to prevent concurrent state overwrite"
+  ],
+  "credentialsOrChatCopied": false,
+  "startupOrScheduledTaskRegistered": false,
+  "serviceGetLimitation": "HTTP 403 demonstrates reachability only; does not independently prove successful feature initialization POST.",
+  "publicationNote": "Published verification summary; transient process ID omitted. Refer to local tunnel state for current process ownership."
+}

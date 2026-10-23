@@ -1,0 +1,27 @@
+{
+  "VerifiedAtUtc": "2026-10-23T06:51:31.9904900Z",
+  "PowerShellVersion": "7.6.4",
+  "Verification": "Static parser only; no SSH connections or process control during this check",
+  "OwnershipRegexCount": 8,
+  "OwnershipRegexAllCompile": true,
+  "Files": [
+    {
+      "File": "Connect-OfficeMacChrome.ps1",
+      "Sha256": "b704ec379134bb10c8d07588fecb363ca276e88489bbb70dd87e3938a5e26eef",
+      "SyntaxErrorCount": 0,
+      "Errors": []
+    },
+    {
+      "File": "OfficeMac-Recovery.Common.ps1",
+      "Sha256": "5df99ce468fbb778ba7455dfa42c3ce6cbd64527ed571b393269ed4bdace0f33",
+      "SyntaxErrorCount": 0,
+      "Errors": []
+    },
+    {
+      "File": "Stop-OfficeMacChromeTunnel.ps1",
+      "Sha256": "9409e97d03aec1067e69fd468704d3a1970a2f2fb2bbe85d87f6e91d7b9562af",
+      "SyntaxErrorCount": 0,
+      "Errors": []
+    }
+  ]
+}

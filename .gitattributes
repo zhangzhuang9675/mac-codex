@@ -1,0 +1,4 @@
+*.md text eol=lf
+*.json text eol=lf
+scripts/windows/*.ps1 -text
+*.jpg binary

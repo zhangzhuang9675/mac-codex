@@ -1,0 +1,65 @@
+{
+  "checkedAtUtc": "2026-10-23T06:40:39.660814+00:00",
+  "device": {
+    "host": "10.1.1.211",
+    "name": "una的MacBook Pro",
+    "user": "apple",
+    "macos": "12.7.6"
+  },
+  "codexVersion": "26.727.51351",
+  "authMode": "existing API configuration preserved",
+  "apiProviderSectionsUnchanged": true,
+  "repair": {
+    "network": "app-only SOCKS through Windows SSH reverse forwarding",
+    "oldMarketplaceSource": "/Applications/ChatGPT.app/Contents/Resources/plugins/openai-bundled",
+    "currentMarketplaceSource": "/Users/apple/.codex/.tmp/bundled-marketplaces/openai-bundled",
+    "marketplaceFix": "official codex plugin marketplace remove openai-bundled; application auto-reconciled and installed plugin",
+    "nativeHostInstall": "official app-managed installation, no manual installManifest script"
+  },
+  "componentChecks": {
+    "extensionInstalled": true,
+    "extensionEnabled": true,
+    "extensionId": "hehggadaopoacecdllhhajmbjkdcmajg",
+    "nativeManifestCorrect": true,
+    "nativeExecutableExists": true,
+    "nativeExecutableExecutable": true
+  },
+  "functionalTest": {
+    "performedBy": "Mac Codex Chrome browser-client via node_repl",
+    "startedAtUtc": "2026-10-23T06:36:38.054Z",
+    "endedAtUtc": "2026-10-23T06:38:27.320Z",
+    "originalTabsObserved": 19,
+    "testTabId": "880855313",
+    "navigation": {
+      "url": "https://example.com/",
+      "title": "Example Domain",
+      "success": true
+    },
+    "domReadSuccess": true,
+    "screenshotSuccess": true,
+    "click": {
+      "label": "Learn more",
+      "url": "https://www.iana.org/help/example-domains",
+      "title": "Example Domains",
+      "success": true
+    },
+    "backNavigationSuccess": true,
+    "testTabClosed": true,
+    "originalTabsMutatedByTest": false,
+    "screenshot": {
+      "file": "chrome-functional-test.jpg",
+      "format": "JPEG",
+      "width": 1440,
+      "height": 768,
+      "bytes": 59123,
+      "sha256": "2935ad13227ac7f675b86bc7c8ae971d383bd29357ec701ec46e596c1c2f6ab5"
+    }
+  },
+  "limitations": [
+    "Current working network path requires this Windows computer online and its existing proxy listening on 127.0.0.1:10808, plus SSH reverse tunnel to Mac 127.0.0.1:18081.",
+    "Codex must be launched with --proxy-server=socks5://127.0.0.1:18081 for this path.",
+    "No global system proxy or automatic startup job was added.",
+    "This is a component and selected configuration backup, not a full system image."
+  ],
+  "publicationNote": "Published recovery summary; private chat identifier omitted. No original configuration, credentials, user tab list, or raw logs are included."
+}
